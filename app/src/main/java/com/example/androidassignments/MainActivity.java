@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
          if (requestCode == 10) {
              Log.i(ACTIVITY_NAME, "Returned to MainActivity.onActivityResult");
          }
-         if (requestCode == Activity.RESULT_OK) {
+         if (responseCode == Activity.RESULT_OK) {
              String messagePassed = data.getStringExtra("Response");
              Toast toast = Toast.makeText(this, "ListItemsActivity passed: " + messagePassed, Toast.LENGTH_LONG);
              toast.show(); //display your message box
