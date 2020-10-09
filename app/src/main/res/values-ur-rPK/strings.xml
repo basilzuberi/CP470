@@ -7,4 +7,9 @@
     <string name="login_name">صارف نام</string>
     <string name="password_text">پاس ورڈ</string>
     <string name="switch_text">یہ کیا کرتا ہے</string>
+    <string name="camera_error">خرابی: کیمرا نہیں کھول سکتا</string>
+    <string name="dialog_title">ختم</string>
+    <string name="dialog_message">کیا آپ اس سے باہر جانا چاہتے ہیں؟</string>
+    <string name="ok">ٹھیک ہے</string>
+    <string name="cancel">بند</string>
 </resources>

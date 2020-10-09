@@ -22,18 +22,20 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
+        android:onClick="OnCheckChanged"
         android:text="CheckBox" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/switchCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
+        android:onClick="setOnCheckedChanged"
         android:text="@string/switch_text" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnPicture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"

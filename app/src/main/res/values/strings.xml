@@ -6,4 +6,9 @@
     <string name="login_name">Login Name</string>
     <string name="password_text">Password</string>
     <string name="switch_text">What does this do?</string>
+    <string name="camera_error">ERROR: Can\'t Open Camera</string>
+    <string name="dialog_title">Finish</string>
+    <string name="dialog_message">Do you want to finish this activity?</string>
+    <string name="ok">Okay</string>
+    <string name="cancel">Cancel</string>
 </resources>
