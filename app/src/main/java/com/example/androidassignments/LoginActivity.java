@@ -15,7 +15,6 @@ public class LoginActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "LoginActivity";
     SharedPreferences mSharedPreference;
     Button mBtnLogin;
-    public String mEmailString;
     private EditText mEmailAddress;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,15 +22,15 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Log.i(ACTIVITY_NAME, "In onCreate()");
         mBtnLogin = findViewById(R.id.btnLogin);
-        mEmailAddress = findViewById(R.id.txtEmailAddress);
-        mSharedPreference = getSharedPreferences("email", Context.MODE_PRIVATE);
+        mEmailAddress = findViewById(R.id.txtEmailAddress); //EmailText
+        mSharedPreference = getSharedPreferences("email", Context.MODE_PRIVATE); //setting shared preferance
         mEmailAddress.setText(mSharedPreference.getString("LoginEmail","example@domain.com"));
 
         mBtnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferences.Editor editor = mSharedPreference.edit();
-                editor.putString("LoginEmail", mEmailAddress.getText().toString());
+                SharedPreferences.Editor editor = mSharedPreference.edit(); //edit shared preferance
+                editor.putString("LoginEmail", mEmailAddress.getText().toString()); //we add the string from LoginText to SharedPreferrance (email.xml)
                 editor.commit();
 
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);

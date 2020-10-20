@@ -12,4 +12,7 @@
     <string name="dialog_message">کیا آپ اس سے باہر جانا چاہتے ہیں؟</string>
     <string name="ok">ٹھیک ہے</string>
     <string name="cancel">بند</string>
+    <string name="start_chat">چیٹ شروع</string>
+    <string name="send_chat">بھیجیں</string>
+    <string name="type_chat_hint">یہاں ٹائپ کریں!</string>
 </resources>
