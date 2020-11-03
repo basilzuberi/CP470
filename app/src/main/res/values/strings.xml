@@ -14,4 +14,13 @@
     <string name="start_chat">Start Chat</string>
     <string name="send_chat">Send</string>
     <string name="type_chat_hint">Click here to type!</string>
+    <string name="start_toolbar_activity">Test Toolbar</string>
+    <string name="button_about">About</string>
+    <string name="choice_one">Choice One</string>
+    <string name="choice_two">Choice Two</string>
+    <string name="choice_three">Choice Three</string>
+    <string name="string_thanks">Thank you for clicking.</string>
+    <string name="alertdialog_title">Do you want to go back?</string>
+    <string name="customdialog_hint">Type a message</string>
+    <string name="customdialog_title">Set Message</string>
 </resources>

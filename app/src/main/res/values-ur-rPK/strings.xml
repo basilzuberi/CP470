@@ -15,4 +15,13 @@
     <string name="start_chat">چیٹ شروع</string>
     <string name="send_chat">بھیجیں</string>
     <string name="type_chat_hint">یہاں ٹائپ کریں!</string>
+    <string name="start_toolbar_activity">ٹول بار شروع</string>
+    <string name="button_about">معلومات</string>
+    <string name="choice_one">پہلی پسند</string>
+    <string name="choice_two">دوسری پسند</string>
+    <string name="choice_three">تیسری پسند</string>
+    <string name="string_thanks">کلک کرنے کے لئے آپ کا شکریہ.</string>
+    <string name="alertdialog_title">واپس جانا چاہتے ہیں</string>
+    <string name="customdialog_hint">پیغام ٹائپ کریں</string>
+    <string name="customdialog_title">پیغام مقرر کریں</string>
 </resources>
