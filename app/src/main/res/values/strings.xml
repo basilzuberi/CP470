@@ -23,4 +23,11 @@
     <string name="alertdialog_title">Do you want to go back?</string>
     <string name="customdialog_hint">Type a message</string>
     <string name="customdialog_title">Set Message</string>
+    <string name="weather_button_text">Check Weather</string>
+    <string-array name="cities">
+        <item>Waterloo</item>
+        <item>Ottawa</item>
+        <item>Kitchener</item>
+        <item>Toronto</item>
+    </string-array>
 </resources>

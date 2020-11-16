@@ -24,4 +24,5 @@
     <string name="alertdialog_title">واپس جانا چاہتے ہیں</string>
     <string name="customdialog_hint">پیغام ٹائپ کریں</string>
     <string name="customdialog_title">پیغام مقرر کریں</string>
+    <string name="weather_button_text">موسم چیک کریں</string>
 </resources>

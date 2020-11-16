@@ -2,7 +2,6 @@ package com.example.androidassignments;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button mBtnListItems;
     Button mBtnStartChat;
     Button mBtnStartToolbar;
+    Button mBtnStartWeather;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnListItems = findViewById(R.id.btnListItems);
         mBtnStartChat = findViewById(R.id.btnStartChat);
         mBtnStartToolbar = findViewById(R.id.btnStartToolbar);
+        mBtnStartWeather = findViewById(R.id.btnStartWeather);
 
         mBtnListItems.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +49,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+                startActivity(intent);
+            }
+        });
+
+        mBtnStartWeather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WeatherForecast.class);
                 startActivity(intent);
             }
         });
